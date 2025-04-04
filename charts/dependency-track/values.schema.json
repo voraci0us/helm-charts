@@ -228,6 +228,26 @@
     },
     "extraObjects": {
       "$ref": "#/$defs/objectArray"
+    },
+    "postgresql": {
+      "type": "object",
+      "properties": {
+        "enabled": {
+          "type": "boolean"
+        },
+        "postgresqlUsername": {
+          "type": "string"
+        },
+        "postgresqlPassword": {
+          "type": "string"
+        },
+        "postgresqlDatabase": {
+          "type": "string"
+        },
+        "postgresqlHost": {
+          "type": "string"
+        }
+      }
     }
   },
   "$defs": {

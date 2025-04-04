@@ -216,3 +216,9 @@ extraObjects:
   #     data:
   #       - key: secret-access-key
   #         name: awssm-secret
+
+postgresql:
+  enabled: true
+  postgresqlUsername: deptrack
+  postgresqlDatabase: deptrack
+  postgresqlHost: deptrack # hostname/IP of external postgres server
